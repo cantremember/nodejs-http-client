@@ -3,9 +3,14 @@
   "contributors": [
     "Elmer Thomas <elmer.thomas@sendgrid.com>"
   ],
-  "name": "sendgrid-rest",
+  "name": "@cantremember/sendgrid-rest",
   "description": "HTTP REST client, simplified for Node.js.",
-  "version": "2.2.2",
+  "version": "2.2.3-alpha",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "scope": "cantremember"
+  },
   "homepage": "https://sendgrid.com",
   "repository": {
     "type": "git",
